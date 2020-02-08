@@ -238,7 +238,7 @@ dependencies = [
 
 [[package]]
 name = "eternalreckoning-server"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "bytes 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)",
  "eternalreckoning-core 0.2.1 (git+https://github.com/EternalReckoning/core?tag=v0.2.1)",
