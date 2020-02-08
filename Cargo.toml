@@ -3,6 +3,7 @@ name = "eternalreckoning-server"
 version = "0.2.0"
 authors = ["Henry Carlson <henry.carlson@gmail.com>"]
 edition = "2018"
+default-run = "eternalreckoning-server"
 
 [features]
 default = [
@@ -10,7 +11,7 @@ default = [
 ]
 
 [dependencies]
-eternalreckoning-core = { version = "~0.2", path = "../core" }
+eternalreckoning-core = { git = "https://github.com/EternalReckoning/core", tag = "v0.2.1" }
 
 bytes = "0.4"
 failure = "0.1"
